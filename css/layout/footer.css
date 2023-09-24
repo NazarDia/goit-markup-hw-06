@@ -20,7 +20,7 @@
   .footer-logo .accent {
     color: var(--color-light);
   }
-  .footer-description {
+  .footer-marketing {
     text-align: left;
     max-width: 288px;
     line-height: 1.5;
@@ -29,25 +29,25 @@
     margin-top: 16px;
   }
 
-  .footer-container {
+  .cont-footer {
     width: 320px;
     display: block;
     gap: 72px;
   }
 
-  .footer-logo-container {
+  .container-one {
     text-align: center;
     margin-bottom: 72px;
   }
 
-  .footer-social-container {
+  .container-two {
     display: block;
     align-items: center;
     gap: 16px;
     margin-top: 72px;
   }
 
-  .footer-social-text {
+  .footer-social {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% */
@@ -56,7 +56,7 @@
     margin-bottom: 16px;
     text-align: center;
   }
-  .footer-social-link {
+  .footer-media {
     max-width: 96px;
     border-radius: 50%;
     color: var(--color-brand);
@@ -69,34 +69,38 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .footer-social-link:hover,
-  .footer-social-link:focus {
+  .footer-media:hover,
+  .footer-media:focus {
     background-color: var(--color-green);
   }
 
-  .footer-icon-list {
+  .icon-list-footer {
     display: flex;
     gap: 16px;
     margin-bottom: 72px;
     justify-content: center;
   }
-  .footer-icon-item {
+  .icon-social {
     width: 40px;
     height: 40px;
   }
-  .footer-list-icon {
+  .container-footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .footer-list-soc {
     fill: var(--color-light);
   }
-  .footer-form {
+  .footer-subscribe-form {
     display: block;
     gap: 16px;
   }
-  .footer-form-container {
+  .footer-inputdiv {
     display: block;
     align-items: center;
     justify-content: center;
   }
-  .form-text {
+  .footer-subscribe-text {
     color: var(--color-hero);
     font-size: 16px;
     font-weight: 500;
@@ -105,7 +109,7 @@
     margin-bottom: 16px;
     text-align: center;
   }
-  .footer-form-input {
+  .footer-input-email {
     width: 288px;
     height: 40px;
     border-radius: 4px;
@@ -120,7 +124,7 @@
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   }
-  .form-button {
+  .footer-subscribe-button {
     display: flex;
     padding: 8px 24px;
     font-size: 16px;
@@ -142,7 +146,7 @@
     margin-right: auto;
     margin-left: auto;
   }
-  .subscribe-icon {
+  .footer-subscribe-svg {
     margin-left: 16px;
   }
 }
@@ -170,20 +174,21 @@
   .footer-logo .accent {
     color: var(--color-light);
   }
-  .footer-description {
+  .footer-marketing {
     max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-light);
+
   }
-  .footer-container {
+  .cont-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 584px;
     gap: 72px 24px;
   }
-  .footer-social-text {
+  .footer-social {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% */
@@ -191,15 +196,15 @@
     color: #fff;
     margin-bottom: 16px;
   }
-  .footer-icon-list {
+  .icon-list-footer {
     display: flex;
     gap: 16px;
   }
-  .footer-icon-item {
+  .icon-social {
     width: 40px;
     height: 40px;
   }
-  .footer-social-link {
+  .footer-media {
     max-width: 96px;
     border-radius: 50%;
     color: var(--color-brand);
@@ -212,18 +217,23 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .footer-social-link:hover,
-  .footer-social-link:focus {
+  .footer-media:hover,
+  .footer-media:focus {
     background-color: var(--color-green);
   }
-  .footer-list-icon {
+
+  .container-footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .footer-list-soc {
     fill: var(--color-light);
   }
-  .footer-form {
+  .footer-subscribe-form {
     display: flex;
     gap: 24px;
   }
-  .form-text {
+  .footer-subscribe-text {
     color: var(--color-hero);
     font-size: 16px;
     font-weight: 500;
@@ -231,7 +241,7 @@
     letter-spacing: 0.02em;
     margin-bottom: 16px;
   }
-  .footer-form-input {
+  .footer-input-email {
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -246,7 +256,7 @@
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   }
-  .form-button {
+  .footer-subscribe-button {
     display: flex;
     padding: 8px 24px;
     gap: 16px;
@@ -267,9 +277,10 @@
     justify-content: center;
     align-items: center;
   }
-  .subscribe-icon {
+  .footer-subscribe-svg {
     margin-left: 16px;
   }
+
 }
 @media screen and (min-width: 1158px) {
   .footer {
@@ -294,25 +305,25 @@
   .footer-logo .accent {
     color: var(--color-light);
   }
-  .footer-description {
+  .footer-marketing {
     max-width: 264px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
     color: var(--color-light);
   }
-  .footer-logo-container {
-    margin-right: 80px;
-  }
-  .footer-container {
+.container-one {
+  margin-right: 80px;
+}
+  .cont-footer {
     display: flex;
     align-items: baseline;
   }
 
-  .footer-social-container {
+  .container-two {
     margin-right: 80px;
   }
 
-  .footer-social-text {
+  .footer-social {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; /* 150% */
@@ -320,7 +331,7 @@
     color: #fff;
     margin-bottom: 16px;
   }
-  .footer-social-link {
+  .footer-media {
     max-width: 96px;
     border-radius: 50%;
     color: var(--color-brand);
@@ -333,27 +344,31 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .footer-social-link:hover,
-  .footer-social-link:focus {
+  .footer-media:hover,
+  .footer-media:focus {
     background-color: var(--color-green);
   }
 
-  .footer-icon-list {
+  .icon-list-footer {
     display: flex;
     gap: 16px;
   }
-  .footer-icon-item {
+  .icon-social {
     width: 40px;
     height: 40px;
   }
-  .footer-list-icon {
+  .container-footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .footer-list-soc {
     fill: var(--color-light);
   }
-  .footer-form {
+  .footer-subscribe-form {
     display: flex;
     gap: 24px;
   }
-  .form-text {
+  .footer-subscribe-text {
     color: var(--color-hero);
     font-size: 16px;
     font-weight: 500;
@@ -361,7 +376,7 @@
     letter-spacing: 0.02em;
     margin-bottom: 16px;
   }
-  .footer-form-input {
+  .footer-input-email {
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -376,7 +391,7 @@
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   }
-  .form-button {
+  .footer-subscribe-button {
     display: flex;
     padding: 8px 24px;
     gap: 16px;
@@ -396,7 +411,8 @@
     justify-content: center;
     align-items: center;
   }
-  .subscribe-icon {
+  .footer-subscribe-svg {
     margin-left: 16px;
   }
+
 }
