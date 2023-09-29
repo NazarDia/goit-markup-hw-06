@@ -179,7 +179,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-light);
-
   }
   .cont-footer {
     display: flex;
@@ -280,7 +279,6 @@
   .footer-subscribe-svg {
     margin-left: 16px;
   }
-
 }
 @media screen and (min-width: 1158px) {
   .footer {
@@ -311,9 +309,9 @@
     letter-spacing: 0.02em;
     color: var(--color-light);
   }
-.container-one {
-  margin-right: 80px;
-}
+  .container-one {
+    margin-right: 80px;
+  }
   .cont-footer {
     display: flex;
     align-items: baseline;
@@ -414,5 +412,4 @@
   .footer-subscribe-svg {
     margin-left: 16px;
   }
-
 }
